@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-green);
+    width: 100%;
+    height: 100%;
+}
+
+.boxPhoto {
+    width: 60%;
+    height: 100%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxResume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Photo {
+    width: 35rem;
+    height: 38rem;
+    border-radius: 25rem;
+}
+
+
+

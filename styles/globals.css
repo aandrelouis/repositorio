@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+:root{
+  --background-green:#15202B;
+  --title: #FFF;
+  --text: #9dafbd;
+}
+
+
