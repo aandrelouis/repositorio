@@ -7,12 +7,12 @@ import Aos from 'aos';
 import { Header } from '../containers/Header';
 import { Hello } from '../containers/Hello';
 import { Colab } from '../containers/Colab';
-
+import { Personal } from '../containers/Personal';
 
 export default function Home() {
   
   useEffect(() => {
-    Aos.init({ duration: 2000 })
+    Aos.init({ duration: 1000 })
   }, [])
   
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       <Header />
       <Hello />
       <Colab />
-      
+      <Personal />
 
 
 

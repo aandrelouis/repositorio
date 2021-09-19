@@ -15,7 +15,11 @@ export function Colab(){
                 <h1>Projetos que eu colaborei</h1>
             </div>
 
-            <ColabCard />
+            <div data-aos="fade-right" className={styles.boxCards}>
+                <ColabCard desc={"coisa 1"} name={"AlertaUfes"}/>
+                <ColabCard desc={"coisa 2"} name={"AlertaUfes"}/>
+                <ColabCard desc={"coisa 3"} name={"AlertaUfes"}/>
+            </div>
 
 
         </div>

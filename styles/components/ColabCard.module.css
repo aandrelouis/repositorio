@@ -1,5 +1,21 @@
+.container{
+    margin: 0 autos;
+    padding: 0;
+}
+
+.container:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
 .box {
     width: 300px;
     height: 200px;
-    background-color: var(--background-green);
+    display: flex;
+    background-color: var(--background-alerta);
+}
+
+
+.Photo{
+   
 }
