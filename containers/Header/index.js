@@ -10,7 +10,17 @@ export function Header(){
             </div>
 
             <div className={styles.boxInfo}>
-                <h1>entre em contato resumo e outros</h1>
+                <div className={styles.boxTags}>
+                    <h3>Contato</h3>
+                </div>
+
+                <div className={styles.boxTags}>
+                    <h3>Resumo</h3>
+                </div>
+
+                <div className={styles.boxTags}>
+                    <h3>Projetos</h3>
+                </div>
             </div>
 
 

@@ -12,7 +12,7 @@ export function Colab(){
     return(
         <div className={styles.container}>
             <div className={styles.box}>
-                <h1>Projetos que eu colaborei</h1>
+                <h1>Colaborações</h1>
             </div>
 
             <div data-aos="fade-right" className={styles.boxCards}>

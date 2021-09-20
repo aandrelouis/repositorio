@@ -6,7 +6,7 @@ export function Hello(){
     return(
         <div className={styles.container}>
             <div className={styles.boxResume}>
-                <h1>Olá,eu sou André Louis</h1>
+                <h3>Olá,eu sou <h1 className={styles.nameDestaq}>André Louis</h1></h3>
                 <p>Estudante de engenharia da computação na UFES
                 ,atualmente 5 l peirodo e sdadsadsadsadsdasdasda
                 dasdsddadsadsaddasdasdasdsadsdafdsdfsfdsfdfsdfsf
@@ -15,7 +15,7 @@ export function Hello(){
             </div>
 
             <div className={styles.boxPhoto}>
-                <img data-aos="fade-right" className={styles.Photo}  src="/perfil/perfil1.jpg" alt="andre louis" />
+                <img data-aos="fade-right" className={styles.Photo}  src="/perfil/perfil2.jpg" alt="andre louis" />
             </div>
         </div>
     )

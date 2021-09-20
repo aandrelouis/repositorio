@@ -1,4 +1,5 @@
 .container{
-    background-color: darkred;
+    background-color: var(--gray-dark);
     width: 100%;
+    color:var(--blue-dark);
 }
