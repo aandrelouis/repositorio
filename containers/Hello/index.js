@@ -6,12 +6,21 @@ export function Hello(){
     return(
         <div className={styles.container}>
             <div className={styles.boxResume}>
-                <h3>Olá,eu sou <h1 className={styles.nameDestaq}>André Louis</h1></h3>
-                <p>Estudante de engenharia da computação na UFES
-                ,atualmente 5 l peirodo e sdadsadsadsadsdasdasda
-                dasdsddadsadsaddasdasdasdsadsdafdsdfsfdsfdfsdfsf
-                sdfdfsfds
+                
+                <div className={styles.boxTitle}>
+                    <h3>Olá,eu sou </h3>
+                    <h2 className={styles.nameDestaq}>André Louis</h2>
+                </div>
+                
+                <p> Sou estudante de enhenharia da computação,
+                    criei esse repositorio para falar sobre 
+                    as coisa que tenho visto dentro da faculdade e aplicado
                 </p>
+            
+                
+
+
+            
             </div>
 
             <div className={styles.boxPhoto}>
