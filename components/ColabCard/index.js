@@ -20,8 +20,8 @@ export function ColabCard(props){
     return(
         <div className={styles.container}>                   
                 <div className={styles.box} onClick={handle}>
-                    <div className={styles.boxGit}>
-                        <AiFillGithub size={30}/>
+                    <div>
+                        <AiFillGithub className={styles.boxGit} size={30}/>
                     </div>
                     <img className={styles.Photo} src={`Colabs/intro${props.name}.jpg`} alt="logo" />                
                 </div>     

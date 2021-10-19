@@ -1,5 +1,5 @@
 .container {
-    background-color: var(--gray-dark);
+    background-color: var(--white);
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -15,7 +15,7 @@
 
 
 .boxName {
-    color: var(--blue-dark);
+    color: #000;
 }
 
 .boxInfo{
@@ -26,7 +26,7 @@
 }
 
 .boxTags {
-    color: #fff;
+    color: #000;
     width: 100%;
     height: 100%;
     margin: 5px;
