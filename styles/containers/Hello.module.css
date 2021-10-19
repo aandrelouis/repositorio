@@ -18,7 +18,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
 .boxResume {
@@ -26,7 +25,6 @@
     margin:0px;
     padding: 0px;
     flex-direction: column;
-
 }
 
 .boxTitle {
@@ -50,4 +48,11 @@
 
 .nameDestaq {
     color: var(--blue-dark);
+}
+
+.particles {
+    width: 100%;
+    height: 100%;
+    background-color: var(--gray-dark);
+    background: rgb(33,36,50);
 }

@@ -1,6 +1,7 @@
 .container{
-    margin: 0 autos;
+    margin: 0;
     padding: 0;
+    border-radius: 8px;
 }
 
 .container:hover{
@@ -12,5 +13,21 @@
     width: 300px;
     height: 200px;
     display: flex;
-    background-color: var(--background-alerta);
+    flex-direction: row-reverse;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+}
+
+.boxGit{
+    color: red;
+}
+
+.boxGit:hover{
+    color:var(--blue-dark);
+    cursor: pointer;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 8px;
 }

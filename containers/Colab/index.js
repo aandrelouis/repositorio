@@ -4,10 +4,7 @@ import { ColabCard} from '../../components/ColabCard';
 
 
 export function Colab(){
-    function handle(){
-        Swal.fire('Any fool can use a computer')
-    }
-    
+
     
     return(
         <div className={styles.container}>
@@ -16,8 +13,18 @@ export function Colab(){
             </div>
 
             <div data-aos="fade-right" className={styles.boxCards}>
-                <ColabCard desc={"coisa 1"} name={"AlertaUfes"}/>
-                <ColabCard desc={"coisa 2"} name={"AlertaUfes"}/>
+                <ColabCard 
+                    desc={"Projeto desenvolvido no Pet, jogo desenvolvido em javascript e o mesmo utiliza uma IA(Rede Neural) para jogar contra o Player, é possivel jogar contra diferentes niveis da IA bastando selecionar a dificuldade"} 
+                    name={"Pong"} 
+                    type={"jpeg"} 
+                    link={"https://github.com/aandrelouis/Pong-game"}/>
+                
+                <ColabCard 
+                    desc={"Front-end de uma aplicação que em tempo real permite adicionar e retirar memebros da tranca Biométrica do PET"} 
+                    name={"Tranca-Biometrica"}
+                    type={"jpeg"}
+                    link={"https://github.com/aandrelouis/Site-tranca-biometrica"} 
+                    />
                 <ColabCard desc={"coisa 3"} name={"AlertaUfes"}/>
             </div>
 

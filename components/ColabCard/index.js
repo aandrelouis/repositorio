@@ -1,15 +1,15 @@
 import styles from '../../styles/components/ColabCard.module.css';
 import Swal from 'sweetalert2'  
-
+import {AiFillGithub } from 'react-icons/ai';
 
 export function ColabCard(props){
     function handle(){
         Swal.fire({
-            title: 'Sweet!',
+            title: `${props.name}`,
             width: 800,
-            html:'link do projeto :<a href="https://github.com/aandrelouis">icone</a>',
-            text: props.desc,
-            imageUrl: `/${props.name}/alerta1.png`,
+            html: `${props.desc}`+ "."+ `<a href=${props.link}><strong>Link Github</strong></a>`,
+            text:`${props.desc}`,
+            imageUrl: `Colabs/${props.name}.${props.type}`,
             imageWidth: 700,
             imageHeight: 400,
             imageAlt: 'Custom image',
@@ -20,7 +20,10 @@ export function ColabCard(props){
     return(
         <div className={styles.container}>                   
                 <div className={styles.box} onClick={handle}>
-                    <img className={styles.Photo} src={`/${props.name}/Logoalerta.svg`} alt="logo" />                
+                    <div className={styles.boxGit}>
+                        <AiFillGithub size={30}/>
+                    </div>
+                    <img className={styles.Photo} src={`Colabs/intro${props.name}.jpg`} alt="logo" />                
                 </div>     
 
         </div>
