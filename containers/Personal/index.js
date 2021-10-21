@@ -18,7 +18,6 @@ export function Personal(){
                     link={"https://github.com/aandrelouis/Ecoleta"} 
                     />
             </div>
-
         </div>
     )
 }

@@ -17,15 +17,33 @@ export function Colab(){
                     desc={"Projeto desenvolvido no Pet, jogo desenvolvido em javascript e o mesmo utiliza uma IA(Rede Neural) para jogar contra o Player, é possivel jogar contra diferentes niveis da IA bastando selecionar a dificuldade"} 
                     name={"Pong"} 
                     type={"jpeg"} 
-                    link={"https://github.com/aandrelouis/Pong-game"}/>
+                    link={"https://github.com/aandrelouis/Pong-game"}
+                    gitOn={"on"}
+                    />
                 
                 <ColabCard 
                     desc={"Front-end de uma aplicação que em tempo real permite adicionar e retirar memebros da tranca Biométrica do PET"} 
                     name={"Tranca-Biometrica"}
                     type={"jpeg"}
                     link={"https://github.com/aandrelouis/Site-tranca-biometrica"} 
+                    gitOn={"on"}
                     />
-                <ColabCard desc={"coisa 3"} name={"AlertaUfes"}/>
+                
+                <ColabCard 
+                    desc={"Aplicação desenvolvida dentro do grupo Pet, o alerta 'e....."} 
+                    name={"AlertaUfes"} 
+                    type={"gif"}
+                    link={"https://github.com/aandrelouis/Site-tranca-biometrica"} 
+                    gitOn={"off"}
+                />
+
+                <ColabCard 
+                    desc={"Aplicação desenvolvida dentro do grupo Pet, o alerta 'e....."} 
+                    name={"AlertaUfesMobile"} 
+                    type={"jpg"}
+                    link={"https://github.com/aandrelouis/Site-tranca-biometrica"}
+                    gitOn={"off"} 
+                />
             </div>
 
 
