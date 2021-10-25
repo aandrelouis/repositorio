@@ -1,5 +1,7 @@
 import styles from '../../styles/containers/Contact.module.css';
-
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
+import { CgPin } from 'react-icons/cg';
 
 export function Contact(){    
     return(
@@ -11,9 +13,20 @@ export function Contact(){
             <div className={styles.content}>
 
                 <div className={styles.boxText}>
-                    <h1>Informações</h1>
-                    <h1>Email</h1>
-                    <h1>Localização</h1>
+                    <div className={styles.boxIcon}>
+                        <BsFillTelephoneFill size={25} className={styles.icon}/>
+                        <h3>(27)98103-2716</h3>
+                    </div>
+
+                    <div className={styles.boxIcon}>
+                        <AiOutlineMail  size={25} className={styles.icon} />
+                        <h3>aandrelouis@gmail.com</h3>
+                    </div>
+
+                    <div className={styles.boxIcon}>
+                        <CgPin  size={25}  className={styles.icon}/>
+                        <h3>Vitória - ES</h3>
+                    </div>
                 </div>
 
                 <div className={styles.boxInputs}>
@@ -23,7 +36,7 @@ export function Contact(){
                    </div>
                 
                     <input placeholder="Descrição" className={styles.input} type="text"/>
-                    <button className={styles.Button}>enviar</button>
+                    <button className={styles.button}>enviar</button>
                 </div>
             
             </div>

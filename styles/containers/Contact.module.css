@@ -1,29 +1,31 @@
 .container{
     background-color: var(--gray-dark);
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     color:var(--red);
     display: flex;
     flex-direction: column;
+    
 }
 
-.title {
+.title h1 {
     width: 100%;
+    margin:0px;
 }
 
 .content {
-    background-color: aqua;
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 
 .boxText {
     width: 40%;
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .boxInputs {
@@ -52,3 +54,26 @@
 .input:focus{
     outline: none;
   }
+
+.button {
+    background-color: var(--red);
+    height: 25%;
+    border-radius: 5px;
+    margin: 5px;
+    border: 0px;
+}
+
+.boxIcon {
+    display: flex;
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxIcon h3{
+   color: var(--white);
+}
+
+.icon {
+    
+}
