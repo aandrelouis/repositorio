@@ -7,7 +7,7 @@ export function Header(){
     return(
         <div className={styles.container}>
             <div className={styles.box}>
-                <FaDev  size={55} color={"#ec5b53"}/>
+                <FaDev className={styles.icon} size={55} color={"#ec5b53"}/>
                 <div className={styles.boxName}>
                     <h1>André Louis</h1>
                 </div>

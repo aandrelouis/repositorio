@@ -75,3 +75,49 @@
 .box h1:hover::after{
     transform: scaleX(1);  
 }
+
+@media (max-width: 520px){ 
+    .boxName {
+        height: 45px;
+    }
+    
+    .boxName h1{
+        font-size: 1.0rem;
+    }
+
+    .boxTags h3 {
+        font-size: 0.8rem;
+    }
+    .boxTags {
+        height: 45px;
+    }
+    .icon{
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media (max-width: 420px){ 
+    .container {
+        justify-content: space-around;
+    }
+
+    .boxName {
+        height: 30px;
+    }
+    
+    .boxName h1{
+        font-size: 0.8rem;
+    }
+
+    .boxTags h3 {
+        font-size: 0.5rem;
+    }
+    .boxTags {
+        height: 30px;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+}

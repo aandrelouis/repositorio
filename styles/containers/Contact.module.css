@@ -57,7 +57,7 @@
 
 .button {
     background-color: var(--red);
-    height: 25%;
+    height: 35px;
     border-radius: 5px;
     margin: 5px;
     border: 0px;
@@ -74,6 +74,46 @@
    color: var(--white);
 }
 
-.icon {
-    
+@media (max-width: 900px){
+    .boxInputTop {
+        flex-direction: column;
+    }
+    .boxIcon h3 {
+        font-size: 1.0rem;
+    }
 }
+
+@media (max-width: 700px){
+    .boxIcon h3 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container h1{
+        margin-bottom: 5px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .boxText {
+        width: 70%;
+        margin: 10px;
+    } 
+    .boxIcon h3 {
+        font-size: 0.6rem;
+    }
+    .boxIcon {
+        justify-content: space-between;
+    }
+}
+
