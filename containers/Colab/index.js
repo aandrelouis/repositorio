@@ -16,7 +16,7 @@ export function Colab(){
                 <ColabCard 
                     desc={"Projeto desenvolvido no Pet, jogo desenvolvido em javascript e o mesmo utiliza uma IA(Rede Neural) para jogar contra o Player, é possivel jogar contra diferentes niveis da IA bastando selecionar a dificuldade"} 
                     name={"Pong"} 
-                    type={"jpeg"} 
+                    type={"gif"} 
                     link={"https://github.com/aandrelouis/Pong-game"}
                     gitOn={"on"}
                     />

@@ -1,5 +1,15 @@
 .container{
-    background-color: var(--gray-dark);
+    background-color: var(#FFF);
     width: 100%;
     color:var(--blue-dark);
+}
+
+.boxCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
