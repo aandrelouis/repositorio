@@ -1,7 +1,8 @@
 .container{
-    background-color: var(#FFF);
+    background-color: var(--gray-dark);
     width: 100%;
-    color:var(--blue-dark);
+    padding: 5px;
+    color:var(--red);
 }
 
 .boxCards {
@@ -11,5 +12,6 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
+    margin-bottom: 25px;
     padding: 0;
 }

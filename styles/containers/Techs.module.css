@@ -1,8 +1,11 @@
 .container {
     margin: 0px;
+    padding: 5px;
     background-color: #fff;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .boxTechs {
@@ -11,3 +14,4 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+

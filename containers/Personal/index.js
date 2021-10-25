@@ -6,7 +6,7 @@ export function Personal(){
     return(
         <div className={styles.container}>
             <div className={styles.boxInfo}>
-                <h1>Projetos pessoais</h1>
+                <h1>Projetos</h1>
             </div>
 
 

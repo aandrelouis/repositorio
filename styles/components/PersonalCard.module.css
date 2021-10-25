@@ -1,5 +1,5 @@
 .container{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     border-radius: 8px;
 }
@@ -14,7 +14,7 @@
     height: 200px;
     display: flex;
     flex-direction: row-reverse;
-    background-color: #F4F4F4;
+    background-color: var(--white);
     border-radius: 8px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .boxGit:hover{
-    color:var(--blue-dark);
+    color:#000;
     cursor: pointer;
 }
 

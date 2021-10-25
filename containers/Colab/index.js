@@ -12,7 +12,15 @@ export function Colab(){
                 <h1>Colaborações</h1>
             </div>
 
-            <div data-aos="fade-right" className={styles.boxCards}>
+            <div className={styles.boxCards}>
+                <ColabCard 
+                    desc={"Projeto desenvolvido no Pet, jogo desenvolvido em javascript e o mesmo utiliza uma IA(Rede Neural) para jogar contra o Player, é possivel jogar contra diferentes niveis da IA bastando selecionar a dificuldade"} 
+                    name={"Pong"} 
+                    type={"gif"} 
+                    link={"https://github.com/aandrelouis/Pong-game"}
+                    gitOn={"on"}
+                    />
+
                 <ColabCard 
                     desc={"Projeto desenvolvido no Pet, jogo desenvolvido em javascript e o mesmo utiliza uma IA(Rede Neural) para jogar contra o Player, é possivel jogar contra diferentes niveis da IA bastando selecionar a dificuldade"} 
                     name={"Pong"} 
@@ -44,6 +52,7 @@ export function Colab(){
                     link={"https://github.com/aandrelouis/Site-tranca-biometrica"}
                     gitOn={"off"} 
                 />
+
             </div>
 
 

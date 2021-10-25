@@ -9,6 +9,7 @@ import { Hello } from '../containers/Hello';
 import { Colab } from '../containers/Colab';
 import { Personal } from '../containers/Personal';
 import { Techs } from '../containers/Techs';
+import { Contact } from '../containers/Contact';
 
 export default function Home() {
   
@@ -26,9 +27,9 @@ export default function Home() {
       <Header />
       <Hello />
       <Techs />
-      <Colab />
       <Personal />
-
+      <Colab />
+      <Contact />
     </div>
   )
 }

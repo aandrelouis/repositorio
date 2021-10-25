@@ -20,11 +20,12 @@ a {
 :root{
   --background-green:#15202B;
   --title: #FFF;
-  --white: #F4F4F4;
+  --white: #FFF;
   --text: #9dafbd;
   --background-alerta:#345580;
   --blue-dark:#0bfcda;
   --gray-dark:#1d1d1d;
+  --red:#ec5b53;
 }
 
 
