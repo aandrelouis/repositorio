@@ -33,3 +33,31 @@
     overflow: hidden;
     object-fit: cover;
 }
+
+@media (max-width: 420px){
+    .box {
+        width: 270px;
+        height: 180px;
+    }
+}
+
+
+@media (max-width: 350px){
+    .box {
+        width: 240px;
+        height: 180px;
+    }
+    .box img{
+        width: 250px;
+        overflow: hidden;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 300px){
+    .box {
+        width: 220px;
+        height: 180px;
+    }
+}
+

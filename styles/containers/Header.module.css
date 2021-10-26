@@ -80,7 +80,13 @@
     .boxName {
         height: 45px;
     }
-    
+    .box {
+        height: 45px;
+    }
+    .boxInfo {
+        height: 45px;
+    }
+
     .boxName h1{
         font-size: 1.0rem;
     }
@@ -89,7 +95,7 @@
         font-size: 0.8rem;
     }
     .boxTags {
-        height: 45px;
+        height: 40px;
     }
     .icon{
         height: 45px;
@@ -99,10 +105,16 @@
 
 @media (max-width: 420px){ 
     .container {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .boxName {
+        height: 30px;
+    }
+    .box {
+        height: 30px;
+    }
+    .boxInfo {
         height: 30px;
     }
     
@@ -120,4 +132,11 @@
         height: 30px;
         width: 30px;
     }
+}
+
+@media (max-width: 300px){ 
+    .boxName {
+        display: none;
+    }
+    
 }

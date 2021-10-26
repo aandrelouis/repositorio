@@ -101,5 +101,16 @@
         border-radius: 50%;
         margin: 15px;
     }
+    .boxPhoto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
+@media (max-width: 300px){
+    .Photo {
+        width: 150px;
+    }
+}
