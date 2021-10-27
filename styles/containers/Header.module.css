@@ -76,6 +76,21 @@
     transform: scaleX(1);  
 }
 
+.boxInfoIcon{
+    display: none;
+}
+
+
+@media (max-width: 1000px){
+    .boxInfoIcon{
+        display: block;
+    }
+    .boxInfo{
+        display: none;
+    }
+}
+
+
 @media (max-width: 520px){ 
     .boxName {
         height: 45px;

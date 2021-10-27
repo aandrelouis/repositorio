@@ -1,6 +1,6 @@
 .container {
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,6 +8,7 @@
     background-color: var(--gray-dark);
     width: 100%;
     height: 100%;
+
 }
 .boxPhoto {
     margin: 0px;
@@ -29,9 +30,11 @@
 .boxResume {
     display: flex;
     width: 60%;
-    margin:0px;
-    padding: 0px;
+    margin:10px;
+    padding: 15px;
+    border-radius: 15px;
     flex-direction: column;
+    box-shadow: inset 3px 3px 9px #000;
 }
 
 .boxTitle {
