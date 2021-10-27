@@ -14,7 +14,7 @@ export function Hello(){
                 </div>
                 
                 <h3>Técnico em Informática - CETEPES<br/> 
-                    Graduando em engenharia da computação - UFES</h3>
+                   Bacharel em engenharia da computação(incompleto) - UFES</h3>
 
                 <p> 
                   Fiz esse portfolio para mostrar alguns projetos que desenvolvi durante a graduação e algumas tecnologias 

@@ -25,7 +25,6 @@ export default function Home() {
         <meta name="description" content="site do André Louis" />
       </Head>
       
-      <Header />
       <Intro />
       <Hello />
       <Techs />

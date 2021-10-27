@@ -9,7 +9,7 @@
     align-items: center;
     background-color: var(--gray-dark);
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
 }
 .boxPhoto {
@@ -105,10 +105,20 @@
     .container{
         flex-direction: column;
     }
+    .boxTitle h2{
+       font-size: 20px;
+    }
+
+    .boxResume h3{
+        font-size: 15px;
+    }
+    .boxResume p{
+        font-size: 12px;
+    }
     .Photo {
         width: 200px;
         border-radius: 50%;
-        margin: 15px;
+        margin: 10px;
     }
     .boxPhoto {
         width: 100%;
@@ -118,8 +128,57 @@
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 600px){
+    .boxTitle h2{
+       font-size: 18px;
+    }
+
+    .boxResume h3{
+        font-size: 13px;
+    }
+    .boxResume p{
+        font-size: 11px;
+    }
+    .Icon{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 410px){
+    .boxTitle h2{
+       font-size: 17px;
+    }
+
+    .boxResume h3{
+        font-size: 11px;
+    }
+    .boxResume p{
+        font-size: 10px;
+    }
+    .Icon{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media (max-width: 320px){
     .Photo {
         width: 150px;
     }
+    .boxTitle h2{
+        font-size: 16px;
+     }
+ 
+     .boxResume h3{
+         font-size: 10px;
+     }
+     .boxResume p{
+         font-size: 9px;
+     }
+     .Icon{
+         width: 20px;
+         height: 20px;
+     }
 }

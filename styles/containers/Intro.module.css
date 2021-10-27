@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Source+Code+Pro:wght@400;700&family=Zen+Kaku+Gothic+Antique:wght@700&display=swap');
 
+
+.containerAll {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .container {
     margin: 0px;
     padding: 0px 0px 0px 20px;
@@ -9,7 +18,6 @@
     align-items: center;
     background-color: var(--white);
     width: 100%;
-    height: 550px;
 
 }
 .boxPhoto {
@@ -66,6 +74,9 @@
 }
 
 @media (max-width: 900px){
+    .containerAll{
+        height: 100%;
+    }
     .container{
         flex-direction: column;
         margin-bottom: 10px;
