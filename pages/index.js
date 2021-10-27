@@ -10,6 +10,7 @@ import { Colab } from '../containers/Colab';
 import { Personal } from '../containers/Personal';
 import { Techs } from '../containers/Techs';
 import { Contact } from '../containers/Contact';
+import { Intro } from '../containers/Intro';
 
 export default function Home() {
   
@@ -25,6 +26,7 @@ export default function Home() {
       </Head>
       
       <Header />
+      <Intro />
       <Hello />
       <Techs />
       <Personal />

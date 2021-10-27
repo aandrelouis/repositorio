@@ -21,7 +21,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                 </p>
 
                 <div className={styles.boxIcons}>
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.instagram.com/andre_louiss/?hl=pt-br">
                         <FiInstagram className={styles.Icon} size={40}/>
                     </a>
                     <a href="https://github.com/aandrelouis">

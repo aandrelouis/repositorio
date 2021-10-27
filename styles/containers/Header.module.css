@@ -78,8 +78,11 @@
 
 .boxInfoIcon{
     display: none;
+    border-radius: 8px;
 }
-
+.boxInfoIcon:hover{
+    cursor: pointer;
+}
 
 @media (max-width: 1000px){
     .boxInfoIcon{
@@ -132,14 +135,7 @@
     .boxInfo {
         height: 30px;
     }
-    
-    .boxName h1{
-        font-size: 0.8rem;
-    }
 
-    .boxTags h3 {
-        font-size: 0.5rem;
-    }
     .boxTags {
         height: 30px;
     }

@@ -12,7 +12,7 @@ export function Header(){
         <>
         <div className={styles.container}>
             <div className={styles.box}>
-                <FaDev className={styles.icon} size={55} color={"#ec5b53"}/>
+                <FaDev className={styles.icon} size={55} color={"#641c1c"}/>
                 <div className={styles.boxName}>
                     <h1>André Louis</h1>
                 </div>

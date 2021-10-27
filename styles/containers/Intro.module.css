@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Source+Code+Pro:wght@400;700&family=Zen+Kaku+Gothic+Antique:wght@700&display=swap');
+
+.container {
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    width: 100%;
+    height: 550px;
+
+}
+.boxPhoto {
+    margin: 0px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Photo {
+    width: 600px;
+}
+
+
+.boxResume {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.boxResume h1 {
+    font-size: 90px;
+    font-weight: bold;
+    margin:0px;
+    padding: 0px;
+    color: var(--gray-dark);
+    font-family: 'Source Code Pro', monospace;
+
+}
+.boxResume h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin:0px;
+    padding: 0px;
+    color: var(--gray-dark);
+    font-family: 'Source Code Pro', monospace;
+}
+.boxResume h3 strong {
+    color: var(--red);
+}
+
+
+.boxTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+

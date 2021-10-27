@@ -4,8 +4,6 @@ import { ColabCard} from '../../components/ColabCard';
 
 
 export function Colab(){
-
-    
     return(
         <div className={styles.container}>
             <div className={styles.box}>
