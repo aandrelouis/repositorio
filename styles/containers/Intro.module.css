@@ -65,5 +65,92 @@
     align-items: center;
 }
 
+@media (max-width: 900px){
+    .container{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .boxResume {
+        width: 100%;
+    }
+    .boxPhoto {
+        margin: 15px;
+        width: 90%;
+
+    }
+}
+
+@media (max-width: 800px){
+    .boxResume h1 {
+        font-size: 80px;
+    
+    }
+    .boxResume h3 {
+        font-size: 30px;
+    }
+    .boxResume {
+        width: 100%;
+    }
+    .boxPhoto {
+        width: 80%;
+
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .boxResume h1 {
+        font-size: 50px;
+    
+    }
+    .boxResume h3{
+        font-size: 20px;
+    }
+    .boxResume {
+        width: 100%;
+    }
+    .boxPhoto {
+        width: 90%;
+       
+    }
+}
+
+@media (max-width: 425px){
+    .container{
+        margin-bottom: 0px;
+        height: 350px;
+    }
+
+    .boxResume h1 {
+        font-size: 40px;
+    
+    }
+    .boxResume h3{
+        font-size: 15px;
+    }
+    .boxPhoto {
+        width: 90%;
+       
+    }
+}
+
+@media (max-width: 300px){
+    .container{
+        height: 300px;
+    }
+
+    .boxResume h1 {
+        font-size: 30px;
+    
+    }
+    .boxResume h3{
+        font-size: 12px;
+    }
+}
+
 
 

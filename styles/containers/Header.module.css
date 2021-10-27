@@ -2,7 +2,7 @@
     background-color: var(--white);
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,6 +22,10 @@
 }
 .box h1{
     margin:0px;
+}
+.box img{
+    height: 55px;
+    width: auto;
 }
 
 .boxName {
@@ -90,6 +94,9 @@
     }
     .boxInfo{
         display: none;
+    }
+    .box img{
+        height: 50px;
     }
 }
 
