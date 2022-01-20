@@ -3,9 +3,9 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import { CgPin } from 'react-icons/cg';
 
-export function Contact(){    
+export function Contact(props){    
     return(
-        <div className={styles.container}>
+        <div ref={props.referencia} className={styles.container}>
             <div className={styles.title}>
                 <h1>Contato</h1>
             </div>

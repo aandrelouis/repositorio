@@ -12,7 +12,7 @@ export function Colab(){
 
             <div className={styles.boxCards}>
                 <ColabCard 
-                    desc={"Projeto desenvolvido no Pet"} 
+                    desc={"Projeto desenvolvido no Pet, para avaliação interna do grupo"} 
                     name={"Avaliacao360"} 
                     type={"gif"} 
                     link={"https://github.com/aandrelouis/Avaliacao360"}
@@ -36,7 +36,7 @@ export function Colab(){
                     />
                 
                 <ColabCard 
-                    desc={"Aplicação desenvolvida dentro do grupo Pet, o alerta 'e....."} 
+                    desc={"Aplicação desenvolvida dentro do grupo Pet, versão Web"} 
                     name={"AlertaUfes"} 
                     type={"gif"}
                     link={"https://github.com/aandrelouis/Site-tranca-biometrica"} 
@@ -44,7 +44,7 @@ export function Colab(){
                 />
 
                 <ColabCard 
-                    desc={"Aplicação desenvolvida dentro do grupo Pet, o alerta 'e....."} 
+                    desc={"Aplicação desenvolvida dentro do grupo Pet, versão mobile"} 
                     name={"AlertaUfesMobile"} 
                     type={"jpg"}
                     link={"https://github.com/aandrelouis/Site-tranca-biometrica"}

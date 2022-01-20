@@ -3,9 +3,29 @@ import { FaDev } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState} from 'react';
 
-export function Header(){
+export function Header(props){
     const [menu,setMenu] = useState(false);
 
+    function scrollProjects(){
+        window.scrollTo({
+            top: props.pag2.current.offsetTop,
+            behavior: 'smooth'
+        })
+    }
+
+    function scrollAbout(){
+        window.scrollTo({
+            top: props.pag1.current.offsetTop,
+            behavior: 'smooth'
+        })
+    }
+
+    function scrollContact(){
+        window.scrollTo({
+            top: props.pag3.current.offsetTop,
+            behavior: 'smooth'
+        })
+    }
 
 
     return(
@@ -16,15 +36,15 @@ export function Header(){
             </div>
 
             <div className={styles.boxInfo}>
-                <div className={styles.boxTags}>
+                <div onClick={scrollContact} className={styles.boxTags}>
                     <h3>Contato</h3>
                 </div>
 
-                <div className={styles.boxTags}>
+                <div onClick={scrollAbout} className={styles.boxTags}>
                     <h3>Resumo</h3>
                 </div>
 
-                <div className={styles.boxTags}>
+                <div onClick={scrollProjects} className={styles.boxTags}>
                     <h3>Projetos</h3>
                 </div>
             </div>
@@ -35,15 +55,15 @@ export function Header(){
         </div>
         {
             menu && <div className={styles.boxInfoMenu}>
-            <div className={styles.boxTags}>
+            <div onClick={scrollContact} className={styles.boxTags}>
                 <h3>Contato</h3>
             </div>
 
-            <div className={styles.boxTags}>
+            <div onClick={scrollAbout} className={styles.boxTags}>
                 <h3>Resumo</h3>
             </div>
 
-            <div className={styles.boxTags}>
+            <div onClick={scrollProjects} className={styles.boxTags}>
                 <h3>Projetos</h3>
             </div>
         </div>

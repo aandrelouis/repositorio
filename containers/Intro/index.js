@@ -5,10 +5,11 @@ import { AiFillLinkedin,AiFillGithub } from 'react-icons/ai';
 import { Header} from '../Header'
 
 
-export function Intro(){
-     return(
+export function Intro(props){
+     
+    return(
         <div className={styles.containerAll}>
-            <Header />
+            <Header  pag1={props.pag1} pag2={props.pag2} pag3={props.pag3}/>
             <div className={styles.container}>
                 <div className={styles.boxResume}>
                         <h1>André Louis</h1>

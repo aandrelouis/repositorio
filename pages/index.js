@@ -11,6 +11,7 @@ import { Personal } from '../containers/Personal';
 import { Techs } from '../containers/Techs';
 import { Contact } from '../containers/Contact';
 import { Intro } from '../containers/Intro';
+import React, { useRef } from 'react'
 
 export default function Home() {
   
@@ -18,6 +19,12 @@ export default function Home() {
     Aos.init({ duration: 1000 })
   }, [])
   
+  const home = useRef(null);
+  const about = useRef(null);
+  const projects = useRef(null);
+  const contact = useRef(null);
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -25,12 +32,12 @@ export default function Home() {
         <meta name="description" content="site do André Louis" />
       </Head>
       
-      <Intro />
-      <Hello />
+      <Intro pag0={home} pag2={projects} pag1={about} pag3={contact}/>
+      <Hello referencia={about}/>
       <Techs />
-      <Personal />
+      <Personal referencia={projects}/>
       <Colab />
-      <Contact />
+      <Contact referencia={contact}/>
     </div>
   )
 }

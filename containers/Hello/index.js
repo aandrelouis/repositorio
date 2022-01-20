@@ -5,9 +5,9 @@ import { AiFillLinkedin,AiFillGithub } from 'react-icons/ai';
 
 
 
-export function Hello(){
+export function Hello(props){
      return(
-        <div className={styles.container}>
+        <div ref={props.referencia} className={styles.container}>
             <div className={styles.boxResume}>
                 <div className={styles.boxTitle}>
                     <h2 className={styles.nameDestaq}>André Louis Souza Ribeiro</h2>
