@@ -32,6 +32,13 @@ export function Personal(props){
                     link={"https://github.com/aandrelouis/Be-the-hero-"} 
                 />
               
+              <PersonalCard
+                    desc={"Aplicação Desenvolvida como case para o processo seletivo da Alura, com o objetivo de cadastrar e armazenar clientes, versão mobile."} 
+                    name={"AnotaAi"}
+                    type={"svg"}
+                    link={"https://github.com/aandrelouis/App_Cadastro_de_Contatos"} 
+                />
+
             </div>
         </div>
     )
